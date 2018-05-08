@@ -15,8 +15,15 @@ lives inside of `dev/venv` in case you ever need to access it):
     dev/setup
 
 Next, make sure that you can access your local PostgreSQL server, which
-you can confirm with a quick `psql -l`, and then start up a Solr full
-text index server with:
+you can confirm with a quick `psql -l`. If you need to override the postgres connection settings, you can define the `DATABASE_URL` envrionment variable:
+
+    export DATABASE_URL=postgresql://docker:docker@localhost:5432/gobotany
+
+We need to set a secret key for Django. You need to run this command each time you create a new shell session:
+
+    export GOBOTANY_DJANGO_SECRET_KEY=$(cat /dev/urandom | tr -dc 'a-zA-Z0-9' | fold -w 32 | head -n 1)
+
+Now start up a Solr full text index server with:
 
     dev/start-solr
 
