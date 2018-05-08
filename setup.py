@@ -8,7 +8,7 @@ requirements = [
     'bleach==1.4.3',
     'cssselect',
     'django-debug-toolbar==1.5',
-    'django-haystack==2.5.dev1',
+    'django-haystack==2.8.1',
     'django-haystack-panel==0.2.1',
     'django-imagekit==3.3',
     'django-tinymce==2.6.0',
@@ -38,7 +38,7 @@ requirements = [
 
     # For storing images on S3.
 
-    'boto==2.39.0',
+    'boto==2.48.0',
     'django-storages==1.4.1',
     'requests',
 

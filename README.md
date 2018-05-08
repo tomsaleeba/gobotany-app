@@ -35,7 +35,7 @@ application, simply run:
 
 You should then be able to visit the application at:
 
-    http://localhost:8000/
+    http://localhost:8983/solr/
 
 Before importing data into your database, ensure you have your AWS
 credentials set in your environment variables, which is often accomplished
