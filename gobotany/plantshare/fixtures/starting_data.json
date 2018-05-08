@@ -4143,7 +4143,6 @@
         "fields": {
             "question": "I've been seeing a lot lately about invasive plants carried on the bottoms of boats from one lake to another. Can you give me some guidance on what plants are especially problematic, and how to prevent them from spreading?",
             "answer": "",
-            "category": "General",
             "asked": "2012-01-21T14:42:13.360",
             "asked_by": 2
         }
@@ -4154,7 +4153,6 @@
         "fields": {
             "question": "I located a charming plant on your site: 'Shrubby Shrubis' but my local garden shop never heard of it. Where can I buy this delightful species?",
             "answer": "This lovely plant is so rare that it's only found in dry ravines high in the mountains. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-            "category": "Invasives",
             "asked": "2012-01-22T12:13:00.120",
             "asked_by": 3,
             "approved": true,
@@ -4167,7 +4165,6 @@
         "fields": {
             "question": "What is the difference between a tree and a shrub?",
             "answer": "The difference is not clear-cut, but in general, trees have a single stem and shrubs have multiple stems. Also, trees are generally taller than shrubs. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-            "category": "General",
             "asked": "2012-01-23T09:04:00.330",
             "asked_by": 4,
             "approved": true,
@@ -4180,7 +4177,6 @@
         "fields": {
             "question": "Are there any plants in New England that were absent 10 years ago?",
             "answer": "",
-            "category": "General",
             "asked": "2012-01-23T11:33:00.330",
             "asked_by": 5
         }
@@ -4191,7 +4187,6 @@
         "fields": {
             "question": "How can I be sure not to spread any invasive aquatic plants when I go boating around New England?",
             "answer": "Be sure to thoroughly clean your boat and all gear, removing any plant material to avoid accidental transport to another waterway.",
-            "category": "General",
             "asked": "2012-01-23T12:52:00.230",
             "asked_by": 6,
             "approved": false
@@ -4203,7 +4198,6 @@
         "fields": {
             "question": "How did the last ice age affect plants in New England?",
             "answer": "",
-            "category": "General",
             "asked": "2012-02-01T07:55:00.330",
             "asked_by": 5
         }
