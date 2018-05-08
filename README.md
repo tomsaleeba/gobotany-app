@@ -53,7 +53,9 @@ already sitting in your way; in that case, ignore the error):
     dev/load
 
 At this point you are done installing and should be able to test and
-develop the application!
+develop the application! Run the server with:
+
+    dev/django runserver
 
 If you ever need to activate the virtual environment so that Python
 prompts or scripts run from your shell have access to the Go Botany
