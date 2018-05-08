@@ -11,7 +11,7 @@ cd $(dirname ${BASH_SOURCE[0]})
 rm -rf ./venv
 
 python2.7 virtualenv.py --distribute --unzip-setuptools \
-    --system-site-packages ./venv
+    ./venv
 
 ./venv/bin/pip install -e ..
 ./venv/bin/pip install coverage

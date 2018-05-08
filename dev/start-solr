@@ -8,11 +8,13 @@ set -e
 DEV=$(dirname "${BASH_SOURCE[0]}")
 cd $DEV
 
-EXAMPLE=usr/solr-4.7.2/example
+USR_DIR=usr
+EXAMPLE=$USR_DIR/solr-4.7.2/example
 
 if [ ! -d $EXAMPLE ]
 then
-    cd usr
+    mkdir -p $USR_DIR
+    cd $USR_DIR
     curl -OL http://archive.apache.org/dist/lucene/solr/4.7.2/solr-4.7.2.tgz
     tar xzf solr-4.7.2.tgz
     cd ..

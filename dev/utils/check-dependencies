@@ -69,3 +69,17 @@ Error: The "libmemcached" library headers need to be installed on your system.
 EOF
     exit 1
 fi
+
+which java > /dev/null 2>&1
+java_rc=$?
+if [ "$java_rc" != "0" ]
+then
+    cat <<EOF
+
+Error: Cannot find the "java" command, you need to install Java.
+
+       Ubuntu Linux:        sudo apt-get install default-jre
+
+EOF
+    exit 1
+fi
